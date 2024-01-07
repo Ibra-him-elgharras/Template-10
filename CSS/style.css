@@ -13,10 +13,28 @@ body{
 }
 
 .container{
-    background-color: grey;
-    height: 80vh;
+    height: 70vh;
     width: 80%;
     margin: auto;
     position: relative;
-    top: 10vh;
+    top: 15vh;
+    display: flex;
+}
+
+.informations{
+    background-color: yellow;
+    width: 30%;
+    height: 100%;
+}
+
+.line-v{
+    background-color: red;
+    width: 1%;
+    height: 100%;
+}
+
+.form{
+    background-color: blue;
+    width: 69%;
+    height: 100%;
 }
