@@ -9,52 +9,63 @@
 
 body{
     background-color: rgba(35, 138, 133, 0.43);
-    
 }
 
 .container{
     background-color: #fff;
     height: 60vh;
-    width: 80%;
+    width: 70%;
     margin: auto;
     position: relative;
-    top: 15vh;
+    top: 20vh;
     display: flex;
 }
 
 .informations{
-    
     width: 30%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
+    padding: 35px 15px 5px 15px;
+    
+}
+
+.informations .address,.phone,.email{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.informations .info{
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.informations i{
+    color:  rgb(2, 2, 137);
+    font-size: 24px;
 }
 
 
 .line-v{
-    background-color: rgba(240, 35, 8, 0.485);
-    width: 0.5%;
-    height: 60%;
+    background-color: rgba(79, 77, 77, 0.636);
+    width: 0.07%;
+    height: 68%;
     position: relative;
-    top: 15%;
+    top: 18%;
 }
 
 .form{
     width: 69%;
     height: 100%;
     padding: 40px;
-    
 }
 
 .form .texts h3{
     color: blue;
-    
 }
 
+
 form input{
-    background-color: rgba(128, 128, 128, 0.077);
+    background-color: rgba(30, 97, 128, 0.16);
     width: 100%;
     height: 40px;
     margin: 5px 0;
@@ -63,13 +74,21 @@ form input{
     border: none;
 }
 
-form .msg{
+form textarea{
+    background-color: rgba(30, 97, 128, 0.16);
     height: 120px;
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
 
+
 button{
-    background-color: blue;
+    background-color: rgb(2, 2, 137);
     color: #fff;
+    margin-top: 3px;
     height: 30px;
     padding: 5px;
     border-radius: 5px;
