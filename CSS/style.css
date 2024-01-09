@@ -42,8 +42,15 @@ body{
 .informations i{
     color:  rgb(2, 2, 137);
     font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.informations i:hover{
+    background-color: #fff;
+    transform: scale(1.5);
+    
+}
 
 .line-v{
     background-color: rgba(79, 77, 77, 0.636);
@@ -62,7 +69,6 @@ body{
 .form .texts h3{
     color: blue;
 }
-
 
 form input{
     background-color: rgba(30, 97, 128, 0.16);
@@ -84,7 +90,6 @@ form textarea{
     border: none;
 }
 
-
 button{
     background-color: rgb(2, 2, 137);
     color: #fff;
@@ -92,5 +97,14 @@ button{
     height: 30px;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    color: rgb(2, 2, 137);
+    background-color: #fff;
+    transform: scale(1.05);
+    border: 1px solid rgb(2, 2, 137);
 }
 
